@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Vitality</title>
+    <meta name="author" content="Voltology Digital">
+    <title>Voltology Digital | A Digital Experience Agency</title>
     <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
     <!-- Retina.js - Load first for faster HQ mobile images. -->
-    <script src="assets/js/plugins/retina/retina.min.js"></script>
+    <script src="js/plugins/retina/retina.min.js"></script>
     <!-- Font Awesome -->
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Default Fonts -->
@@ -23,30 +23,21 @@
     <link href='http://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
     <!-- Plugin CSS -->
-    <link href="assets/css/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/jquery.fs.wallpaper.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/jquery.fs.wallpaper.css" rel="stylesheet" type="text/css">
+    <link href="css/plugins/animate.css" rel="stylesheet" type="text/css">
     <!-- Vitality Theme CSS -->
     <!-- Uncomment the color scheme you want to use. -->
-    <link href="assets/css/vitality-red.css" rel="stylesheet" type="text/css">
-    <!-- <link href="assets/css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-green.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-orange.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-purple.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
+    <link href="css/vitality-red.css" rel="stylesheet" type="text/css">
     <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-</head>
+  </head>
 <!-- Alternate Body Classes: .modern and .vintage -->
 
 <body id="page-top">
@@ -63,7 +54,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="assets/img/logo.png" class="img-responsive" alt="">
+                    <!--<img src="assets/img/logo.png" class="img-responsive" alt="">-->
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,15 +66,19 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
+                    <!--
                     <li>
                         <a class="page-scroll" href="#process">Process</a>
                     </li>
+                    -->
                     <li>
                         <a class="page-scroll" href="#work">Work</a>
                     </li>
+                    <!--
                     <li>
                         <a class="page-scroll" href="#pricing">Pricing</a>
                     </li>
+                    -->
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -95,10 +90,10 @@
     </nav>
     <header style="background-image: url('assets/img/bg-header.jpg');">
         <div class="intro-content">
-            <img src="assets/img/profile.png" class="img-responsive img-centered" alt="">
-            <div class="brand-name">Vitality</div>
+            <img src="img/ico-logo.png" class="img-responsive img-centered" alt="">
+            <div class="brand-name">Voltology</div>
             <hr class="colored">
-            <div class="brand-name-subtext">by Start Bootstrap</div>
+            <div class="brand-name-subtext">A Digital Experience Agency</div>
         </div>
         <div class="scroll-down">
             <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
@@ -117,34 +112,35 @@
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
                     <div class="about-content">
                         <i class="fa fa-eye fa-4x"></i>
-                        <h3>Retina Ready</h3>
+                        <h3>Strategy</h3>
                         <p>This theme includes the retina.js plugin for easy retina image support so your images and graphics will look great on mobile devices!</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
                     <div class="about-content">
                         <i class="fa fa-edit fa-4x"></i>
-                        <h3>Easy to Edit</h3>
+                        <h3>UX/Design</h3>
                         <p>Vitality is built using Bootstrap 3, and is easy to edit and customize. LESS files are included as well for deeper customization.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
                     <div class="about-content">
                         <i class="fa fa-tablet fa-4x"></i>
-                        <h3>Responsive</h3>
+                        <h3>Development</h3>
                         <p>When building this theme, we've paid close attention to how it looks on various screen sizes. Try it out on a phone or tablet!</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
                     <div class="about-content">
                         <i class="fa fa-heart fa-4x"></i>
-                        <h3>Built with Love</h3>
+                        <h3>Analytics</h3>
                         <p>All of our themes are crafted with care, and we strive to make your experience as one of our customers the best as possible.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--
     <section class="bg-gray">
         <div class="container text-center wow fadeIn">
             <div class="row">
@@ -266,6 +262,7 @@
             </div>
         </div>
     </section>
+    -->
     <aside class="cta-quote" style="background-image: url('assets/img/bg-aside.jpg');">
         <div class="container wow fadeIn">
             <div class="row">
@@ -277,6 +274,7 @@
             </div>
         </div>
     </aside>
+    <!--
     <section id="process" class="services">
         <div class="container">
             <div class="row text-center">
@@ -338,6 +336,7 @@
             </div>
         </div>
     </section>
+    -->
     <section id="work" class="bg-gray">
         <div class="container text-center wow fadeIn">
             <h2>Our Work</h2>
@@ -656,6 +655,7 @@
             </div>
         </div>
     </section>
+    <!--
     <section id="pricing" class="pricing" style="background-image: url('assets/img/bg-pricing.jpg')">
         <div class="container wow fadeIn">
             <div class="row text-center">
@@ -717,6 +717,7 @@
             </div>
         </div>
     </section>
+    -->
     <section class="cta-form bg-dark">
         <div class="container text-center">
             <h3>Subscribe to our newsletter!</h3>
@@ -749,38 +750,51 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Us</h2>
+                    <?php
+                    if ($_SERVER['REQUEST_METHOD'] === "POST") {
+                      echo "<strong>Thank you for contact us.</strong>";
+                      $to = "cvuletich@gmail.com";
+                      $subject = "Voltology Contact Form Submission";
+                      $message = "Name: " . $_POST['name'] . "\r\n";
+                      $message .= "Email: " . $_POST['email'] . "\r\n";
+                      $message .= "Phone: " . $_POST['phone'] . "\r\n";
+                      $message .= "Message: " . $_POST['message'] . "\r\n";
+                      $headers = "From: no-replay@voltology.io\r\n" . "Reply-To: " . $_POST['email'] . "\r\n" . "X-Mailer: PHP/" . phpversion();
+                      mail($to, $subject, $message, $headers);
+                    }
+                    ?>
                     <hr class="colored">
                     <p>Please tell us about your next project and we will let you know what we can do to help you.</p>
                 </div>
             </div>
             <div class="row content-row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="sentMessage"  method="post" action="./#contact" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" name="email" required data-validation-required-message="Please enter your email address.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -802,16 +816,15 @@
             <div class="row">
                 <div class="col-md-4 contact-details">
                     <h4><i class="fa fa-phone"></i> Call</h4>
-                    <p>555-213-4567</p>
+                    <p>708-721-7212</p>
                 </div>
                 <div class="col-md-4 contact-details">
                     <h4><i class="fa fa-map-marker"></i> Visit</h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <p>365 N Halsted, Unit 3210<br>Chicago, IL 60661</p>
                 </div>
                 <div class="col-md-4 contact-details">
                     <h4><i class="fa fa-envelope"></i> Email</h4>
-                    <p><a href="mailto:mail@example.com">mail@example.com</a>
+                    <p><a href="mailto:info@voltology.io">info@voltology.io</a>
                     </p>
                 </div>
             </div>
@@ -829,7 +842,7 @@
             </div>
             <div class="row copyright">
                 <div class="col-lg-12">
-                    <p class="small">&copy; 2015 Start Bootstrap Themes</p>
+                    <p class="small">&copy; 2015 <a href="<?php echo BASE_URL; ?>">Voltology.io</a>. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -984,21 +997,21 @@
         </div>
     </div>
     <!-- Core Scripts -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
     <!-- Plugin Scripts -->
-    <script src="assets/js/plugins/jquery.easing.min.js"></script>
-    <script src="assets/js/plugins/classie.js"></script>
-    <script src="assets/js/plugins/cbpAnimatedHeader.js"></script>
-    <script src="assets/js/plugins/owl-carousel/owl.carousel.js"></script>
-    <script src="assets/js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/plugins/jquery.fs.wallpaper.js"></script>
-    <script src="assets/js/plugins/jquery.mixitup.js"></script>
-    <script src="assets/js/plugins/wow/wow.min.js"></script>
-    <script src="assets/js/contact_me.js"></script>
-    <script src="assets/js/plugins/jqBootstrapValidation.js"></script>
+    <script src="js/plugins/jquery.easing.min.js"></script>
+    <script src="js/plugins/classie.js"></script>
+    <script src="js/plugins/cbpAnimatedHeader.js"></script>
+    <script src="js/plugins/owl-carousel/owl.carousel.js"></script>
+    <script src="js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins/jquery.fs.wallpaper.js"></script>
+    <script src="js/plugins/jquery.mixitup.js"></script>
+    <script src="js/plugins/wow/wow.min.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/plugins/jqBootstrapValidation.js"></script>
     <!-- Vitality Theme Scripts -->
-    <script src="assets/js/vitality.js"></script>
+    <script src="js/vitality.js"></script>
 </body>
 
 </html>
