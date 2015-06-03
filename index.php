@@ -418,6 +418,7 @@
             </div>
         </div>
     </section>
+    <!--
     <section>
         <div class="container text-center wow fadeIn">
             <h2>Portfolio</h2>
@@ -595,6 +596,7 @@
             </div>
         </div>
     </section>
+    -->
     <section class="testimonials bg-gray">
         <div class="container wow fadeIn">
             <div class="row">
@@ -761,12 +763,18 @@
                       $message .= "Message: " . $_POST['message'] . "\r\n";
                       $headers = "From: no-replay@voltology.io\r\n" . "Reply-To: " . $_POST['email'] . "\r\n" . "X-Mailer: PHP/" . phpversion();
                       mail($to, $subject, $message, $headers);
-                    }
+                    } else {
                     ?>
                     <hr class="colored">
                     <p>Please tell us about your next project and we will let you know what we can do to help you.</p>
+                    <?php
+                    }
+                    ?>
                 </div>
             </div>
+            <?php
+            if ($_SERVER['REQUEST_METHOD'] !== "POST") {
+            ?>
             <div class="row content-row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <form name="sentMessage"  method="post" action="./#contact" novalidate>
@@ -808,9 +816,12 @@
                     </form>
                 </div>
             </div>
+            <?php
+            }
+            ?>
         </div>
     </section>
-    <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3" class="btn btn-block btn-full-width">Buy Vitality Now!</a>
+    <!--<a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3" class="btn btn-block btn-full-width">Buy Vitality Now!</a>-->
     <footer class="footer" style="background-image: url('assets/img/bg-footer.jpg')">
         <div class="container text-center">
             <div class="row">
